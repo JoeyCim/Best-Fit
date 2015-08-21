@@ -250,7 +250,7 @@ public class GraphFrame extends JFrame {
                 }
             }	
 
-            //Spread out grid bounds if max/min happen to be equal
+            //Spread out grid bounds more if max/min happen to be equal
             if (maxY - minY < MIN_PRECISION) {
                 minY -= (minY/2.0) + 1;
                 maxY += (maxY/2.0) + 1;
